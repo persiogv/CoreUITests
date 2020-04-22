@@ -11,17 +11,17 @@ public typealias Element = XCUIElement
 public typealias Query = XCUIElementQuery
 
 public struct Queries {
-    static let datePickers = XCUIApplication().datePickers
-    static let pickers = XCUIApplication().pickers
-    static let tables = XCUIApplication().tables
-    static let otherElements = XCUIApplication().otherElements
-    static let staticTexts = XCUIApplication().staticTexts
-    static let buttons = XCUIApplication().buttons
-    static let segmentedControls = XCUIApplication().segmentedControls
-    static let switches = XCUIApplication().switches
-    static let textFields = XCUIApplication().textFields
-    static let images = XCUIApplication().images
-    static let cells = XCUIApplication().cells
+    public static let datePickers = XCUIApplication().datePickers
+    public static let pickers = XCUIApplication().pickers
+    public static let tables = XCUIApplication().tables
+    public static let otherElements = XCUIApplication().otherElements
+    public static let staticTexts = XCUIApplication().staticTexts
+    public static let buttons = XCUIApplication().buttons
+    public static let segmentedControls = XCUIApplication().segmentedControls
+    public static let switches = XCUIApplication().switches
+    public static let textFields = XCUIApplication().textFields
+    public static let images = XCUIApplication().images
+    public static let cells = XCUIApplication().cells
 }
 
 open class Screen {
