@@ -17,6 +17,17 @@ public struct HTTPStubInfo {
     let url: String
     let jsonFilename: String
     let method: HTTPMethod
+    
+    /// Initializer
+    /// - Parameters:
+    ///   - url: Stub url
+    ///   - jsonFilename: Stub file name
+    ///   - method: HTTP method
+    public init(url: String, jsonFilename: String, method: HTTPMethod) {
+        self.url = url
+        self.jsonFilename = jsonFilename
+        self.method = method
+    }
 }
 
 public final class DynamicStubs {
