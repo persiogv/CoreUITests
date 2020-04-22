@@ -16,16 +16,14 @@ open class Feature: XCTestCase {
     // MARK: Overriding
     
     public override func setUp() {
+        super.setUp()
+        
         continueAfterFailure = false
         
         let app = XCUIApplication()
         app.launch()
     }
 
-    public override func tearDown() {
-        super.tearDown()
-    }
-    
     // MARK: Public methods
     
     public func given(_ description: String, operation: Operation) {
