@@ -15,7 +15,7 @@ open class Feature: XCTestCase {
     
     // MARK: Overriding
     
-    public override func setUp() {
+    open override func setUp() {
         super.setUp()
         
         continueAfterFailure = false
