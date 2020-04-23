@@ -22,6 +22,7 @@ public struct Queries {
     public static let textFields = XCUIApplication().textFields
     public static let images = XCUIApplication().images
     public static let cells = XCUIApplication().cells
+    public static let navigationBars = XCUIApplication().navigationBars
 }
 
 open class Screen {
